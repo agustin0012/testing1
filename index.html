@@ -1,34 +1,103 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-   <div class="container">
-    <div class="row">
-        <h2 class="text-center my-5">Lorem ipsum dolor sit amet.</h2>
-        <div class="col-12 col-md-3">
-            <img src="yy.jpg" class="img-fluid" alt="">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+    <!-- Bagian Navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #c5a3ff">
+      <div class="container">
+        <a class="navbar-brand" href="#">APRIL & AGUSTIN</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Projects</a>
+            </li>
+          </ul>
         </div>
-        <div class="col-12 col-md-3">
-            <img src="yy.jpg" class="img-fluid" alt="">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Awal Jumbotron -->
+
+    <section class="jumbotron text-center">
+      <img src="img/april3.jpg" alt="april" width="200" class="rounded-circle" />
+      <h1 class="display-4">APRIL & AGUSTIN</h1>
+      <p class="lead">APRIL| SLEBEW</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,288L26.7,277.3C53.3,267,107,245,160,218.7C213.3,192,267,160,320,170.7C373.3,181,427,235,480,250.7C533.3,267,587,245,640,202.7C693.3,160,747,96,800,112C853.3,128,907,224,960,272C1013.3,320,1067,320,1120,288C1173.3,256,1227,192,1280,170.7C1333.3,149,1387,171,1413,181.3L1440,192L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>ABOUT US</h2>
+          </div>
         </div>
-        <div class="col-12 col-md-3">
-            <img src="yy.jpg" class="img-fluid" alt="">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-4">
+            <p>perkenalkan saya April, hobi saya volly, futsal, latar belakang yaitu pelajar di Sekolah SMA ASOKA</p>
+          </div>
+          <div class="col-4">
+            <p>perkenalkan saya Agustin, hobi saya membaca novel, latar belakang yaitu pelajar di Sekolah SMA ASOKA</p>
+          </div>
         </div>
-        <div class="col-12 col-md-3">
-            <img src="yy.jpg" class="img-fluid" alt="">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e0c4e4"
+          fill-opacity="1"
+          d="M0,288L26.7,277.3C53.3,267,107,245,160,218.7C213.3,192,267,160,320,170.7C373.3,181,427,235,480,250.7C533.3,267,587,245,640,202.7C693.3,160,747,96,800,112C853.3,128,907,224,960,272C1013.3,320,1067,320,1120,288C1173.3,256,1227,192,1280,170.7C1333.3,149,1387,171,1413,181.3L1440,192L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h1>Contact us</h1>
+          </div>
         </div>
-       
-       
-   </div>
+        <div class="row justify-content-center fs-5 text-center mt-5">
+          <div class="col-4">
+            <p><i class="bi bi-whatsapp"> : </i>0892345678</p>
+            <p><i class="bi bi-envelope-paper"> : </i>princess@gmail.com</p>
+            <p><i class="bi bi-instagram"> : </i>Aprilyanto203</p>
+          </div>
+          <div class="col-4">
+            <p><i class="bi bi-whatsapp"> : </i>0856453217</p>
+            <p><i class="bi bi-envelope-paper"> : </i>Ratu@gmail.com</p>
+            <p><i class="bi bi-instagram"> : </i>AgustinPrincess</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir contact -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
 </html>
